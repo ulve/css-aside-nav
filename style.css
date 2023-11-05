@@ -166,6 +166,7 @@ aside {
 .icon-list>li {
   position: relative;
   padding-left: 2rem;
+  cursor: not-allowed;
 }
 
 .icon-list>li::after {
