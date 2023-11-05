@@ -92,9 +92,11 @@ textarea:not([rows]) {
 /* Own */
 :root {
   --color-neutral-100: hsla(0, 0%, 100%, 1);
+
   --color-primary-800: hsla(229, 47%, 17%, 1);
   --color-primary-400: hsla(229, 50%, 58%, 0.3);
   --color-primary-300: hsla(229, 36%, 39%, 1);
+
   --color-accent-400: hsla(147, 93%, 43%, 1);
 
   --font-family-base: "Outfit", sans-serif;
@@ -139,7 +141,6 @@ body {
 main {
   grid-column: 2;
   width: calc(100vw - var(--gap-size) - var(--aside-width));
-
 }
 
 aside {
