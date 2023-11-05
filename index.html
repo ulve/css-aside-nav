@@ -1,13 +1,79 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Timeline</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+  <div class="main-grid">
+    <main>
+      <div class="text">
+        <p class="eyebrow">Blork mork</p>
+        <h1 class="title">Title</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et perferendis voluptatibus exercitationem
+          consequuntur
+          incidunt, voluptas velit est placeat possimus tempora reiciendis? Neque expedita amet cupiditate autem maiores
+          necessitatibus quod, mollitia laudantium unde saepe quae cum deserunt sunt eos iusto est exercitationem. Ipsa
+          porro nisi soluta iure iste, cupiditate neque maiores dolores doloremque velit aliquid ut debitis quam harum
+          illum, sunt iusto ex in consequatur illo voluptatum! Sit nisi possimus odit consectetur. Atque animi alias
+          debitis
+          quos, iusto numquam aliquid, eligendi doloremque voluptas ea voluptatum, culpa minus error incidunt! Vitae
+          praesentium illo tenetur incidunt. Aliquid, tempora repellat. Quod excepturi doloremque voluptates.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos fuga assumenda sit, quam libero nostrum
+          quae
+          modi magnam quo vero fugit maxime laborum, sed sequi repellat, quibusdam ullam eligendi ipsum obcaecati
+          sapiente
+          quasi. Molestias officia laboriosam voluptatibus, deserunt distinctio, quasi enim itaque ea nihil ipsa ab?
+          Sequi
+          dicta cupiditate vero.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, commodi?</p>
+      </div>
+    </main>
+    <aside>
+      <h2 class="visually-hidden">Timeline</h2>
+      <!-- role list and the visually hidden for screen readers -->
+      <ul class="icon-list" role="list">
+        <li>
+          <p class="visually-hidden">Brain</p>
+          <svg class="icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 22 20">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M11 16.5A2.493 2.493 0 0 1 6.51 18H6.5a2.468 2.468 0 0 1-2.4-3.154 2.98 2.98 0 0 1-.85-5.274 2.468 2.468 0 0 1 .921-3.182 2.477 2.477 0 0 1 1.875-3.344 2.5 2.5 0 0 1 3.41-1.856A2.5 2.5 0 0 1 11 3.5m0 13v-13m0 13a2.492 2.492 0 0 0 4.49 1.5h.01a2.467 2.467 0 0 0 2.403-3.154 2.98 2.98 0 0 0 .847-5.274 2.468 2.468 0 0 0-.921-3.182 2.479 2.479 0 0 0-1.875-3.344A2.5 2.5 0 0 0 13.5 1 2.5 2.5 0 0 0 11 3.5m-8 5a2.5 2.5 0 0 1 3.48-2.3m-.28 8.551a3 3 0 0 1-2.953-5.185M19 8.5a2.5 2.5 0 0 0-3.481-2.3m.28 8.551a3 3 0 0 0 2.954-5.185" />
+          </svg>
+
+        </li>
+        <li>
+          <p class="visually-hidden">Done</p>
+          <svg class="icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="m7 10 2 2 4-4m6 2a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+          </svg>
+        </li>
+        <li>
+          <p class="visually-hidden">Pie</p>
+          <svg class="icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 21 21">
+            <g stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+              <path d="M9 4.025A7.5 7.5 0 1 0 16.975 12H9V4.025Z" />
+              <path d="M12.5 1c-.169 0-.334.014-.5.025V9h7.975c.011-.166.025-.331.025-.5A7.5 7.5 0 0 0 12.5 1Z" />
+            </g>
+          </svg>
+        </li>
+        <li>
+          <p class="visually-hidden">Stonks</p>
+          <svg class="icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 16">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M1 1v14h16M4 10l3-4 4 4 5-5m0 0h-3.207M16 5v3.207" />
+          </svg>
+        </li>
+      </ul>
+    </aside>
+  </div>
+</body>
+
 </html>
